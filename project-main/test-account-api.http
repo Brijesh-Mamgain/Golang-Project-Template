@@ -1,0 +1,8 @@
+POST http://localhost:8000/customers/2001/account
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjdXN0b21lcl9pZCI6IiIsImFjY291bnRzIjpudWxsLCJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzQxNzc3NjU2fQ.WpPhsLtYo_gvpsJsO1T1qrLThvBehSSe1-HUeJgTqFE
+Content-Type: application/json
+
+{
+    "account_type": "saving",
+    "amount": 10000.23
+}

@@ -1,0 +1,7 @@
+go 1.24.1
+
+use (
+	./project-common
+	./project-main
+	./project-auth-service
+)
